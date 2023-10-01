@@ -20,12 +20,19 @@ const data = await client.send({
     account: process.argv[2],
     strict: true,
 });
+
+if(data.error) {
+    console.log("Error: ", data.error_message);
+    process.exit(1);
+}
 console.log("Account: ", data.account_data.Account);
 console.log("Balance: ", data.account_data.Balance / 1000000, " XRP");
 console.log("LedgerEntryType: ", data.account_data.LedgerEntryType);
 console.log("OwnerCount: ", data.account_data.OwnerCount);
 console.log("Sequence: ", data.account_data.Sequence);
 console.log("Current Ledger Index: ", data.ledger_current_index);
+
+// console.log("Data", data);
 
 }
 
