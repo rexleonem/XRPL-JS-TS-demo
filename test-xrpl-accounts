@@ -1,0 +1,15 @@
+// if (process.argv.length < 3) {
+//   console.log("Usage: node dist/index.js <secret>");
+//   process.exit(1);
+// }
+// import { derive } from "xrpl-accountlib";
+
+// const account = derive.mnemonic(process.argv[2]);
+// // const account = derive.mnemonic(secret);
+// console.log("Account:", account);
+
+
+// import { generate } from "xrpl-accountlib";
+
+// const account = generate.familySeed();
+// console.log("Account:", account);

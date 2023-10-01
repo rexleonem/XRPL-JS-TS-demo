@@ -5,11 +5,12 @@
   "scripts": {
     "lint": "eslint"
   },
-  "author": "Wietse Wind <hi@wietse.com>",
+  "author": "Rex Leonem <me@dubem.co>",
   "license": "MIT",
   "dependencies": {
-    "xrpl-accountlib": "^1.1.4",
-    "xrpl-client": "^1.7.0"
+    "xrpl-accountlib": "^2.3.1",
+    "xrpl-client": "^1.7.0",
+    "xrpl-keypairs": "^1.0.3"
   },
   "files": [
     "dist/**/*.js",

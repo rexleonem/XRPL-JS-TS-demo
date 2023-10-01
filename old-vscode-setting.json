@@ -1,0 +1,111 @@
+{
+    "tabnine.experimentalAutoImports": true,
+    "editor.codeActionsOnSave": {
+        "source.organizeImports": true
+    },
+    "editor.linkedEditing": true,
+    "editor.minimap.enabled": false,
+    "editor.rulers": [
+        {
+            "column": 80,
+            "color": "#00FF0010"
+        },
+        {
+            "column": 100,
+            "color": "#BDB76B15"
+        },
+        {
+            "column": 120,
+            "color": "#FA807219"
+        }
+    ],
+    "editor.unicodeHighlight.includeComments": true,
+    "emmet.variables": {
+        "lang": "en"
+    },
+    "workbench.colorCustomizations": {
+        "[Default Dark Modern]": {
+            "tab.activeBorderTop": "#00FF00",
+            "tab.unfocusedActiveBorderTop": "#00FF0088",
+            "textCodeBlock.background": "#00000055"
+        },
+        "editor.wordHighlightStrongBorder": "#FF6347",
+        "editor.wordHighlightBorder": "#FFD700",
+        "editor.selectionHighlightBorder": "#A9A9A9"
+    },
+    "workbench.editor.revealIfOpen": true,
+    "workbench.tree.indent": 20,
+    "files.eol": "\n",
+    "[bat]": {
+        "files.eol": "\r\n"
+    },
+    "terminal.integrated.enablePersistentSessions": false,
+    "terminal.integrated.tabs.hideCondition": "never",
+    "java.configuration.updateBuildConfiguration": "automatic",
+    "java.debug.settings.hotCodeReplace": "auto",
+    "java.sources.organizeImports.staticStarThreshold": 1,
+    "cSpell.diagnosticLevel": "Hint",
+    "trailing-spaces.includeEmptyLines": false,
+    "files.trimTrailingWhitespace": false,
+    "java.jdt.ls.java.home": "C:\\Program Files\\Eclipse Adoptium\\jdk-17.0.8.7-hotspot",
+    "spring-boot.ls.java.home": "C:\\Program Files\\Eclipse Adoptium\\jdk-17.0.8.7-hotspot",
+    "java.configuration.runtimes": [
+        {
+            "name": "JavaSE-1.8",
+            "path": "c:\\Users\\VP\\AppData\\Roaming\\Code\\User\\globalStorage\\pleiades.java-extension-pack-jdk\\java\\8"
+        },
+        {
+            "name": "JavaSE-11",
+            "path": "C:\\Program Files\\Microsoft\\jdk-11.0.16.101-hotspot"
+        },
+        {
+            "name": "JavaSE-17",
+            "path": "C:\\Program Files\\Eclipse Adoptium\\jdk-17.0.8.7-hotspot",
+            "default": true
+        }
+    ],
+    "java.import.gradle.java.home": "C:\\Program Files\\Eclipse Adoptium\\jdk-17.0.8.7-hotspot",
+    "maven.terminal.customEnv": [
+        {
+            "environmentVariable": "JAVA_HOME",
+            "value": "C:\\Program Files\\Eclipse Adoptium\\jdk-17.0.8.7-hotspot"
+        }
+    ],
+    "terminal.integrated.env.windows": {
+        "PATH": "C:\\Program Files\\Eclipse Adoptium\\jdk-17.0.8.7-hotspot\\bin;c:\\Users\\VP\\AppData\\Roaming\\Code\\User\\globalStorage\\pleiades.java-extension-pack-jdk\\maven\\latest\\bin;c:\\Users\\VP\\AppData\\Roaming\\Code\\User\\globalStorage\\pleiades.java-extension-pack-jdk\\gradle\\latest\\bin;${env:PATH}",
+        "JAVA_HOME": "C:\\Program Files\\Eclipse Adoptium\\jdk-17.0.8.7-hotspot"
+    },
+    "terminal.integrated.defaultProfile.windows": "Command Prompt",
+    "terminal.integrated.profiles.windows": {
+        "JavaSE-1.8": {
+            "overrideName": true,
+            "env": {
+                "PATH": "c:\\Users\\VP\\AppData\\Roaming\\Code\\User\\globalStorage\\pleiades.java-extension-pack-jdk\\java\\8\\bin;c:\\Users\\VP\\AppData\\Roaming\\Code\\User\\globalStorage\\pleiades.java-extension-pack-jdk\\maven\\latest\\bin;c:\\Users\\VP\\AppData\\Roaming\\Code\\User\\globalStorage\\pleiades.java-extension-pack-jdk\\gradle\\latest\\bin;${env:PATH}",
+                "JAVA_HOME": "c:\\Users\\VP\\AppData\\Roaming\\Code\\User\\globalStorage\\pleiades.java-extension-pack-jdk\\java\\8"
+            },
+            "path": "cmd"
+        },
+        "JavaSE-11": {
+            "overrideName": true,
+            "env": {
+                "PATH": "C:\\Program Files\\Microsoft\\jdk-11.0.16.101-hotspot\\bin;c:\\Users\\VP\\AppData\\Roaming\\Code\\User\\globalStorage\\pleiades.java-extension-pack-jdk\\maven\\latest\\bin;c:\\Users\\VP\\AppData\\Roaming\\Code\\User\\globalStorage\\pleiades.java-extension-pack-jdk\\gradle\\latest\\bin;${env:PATH}",
+                "JAVA_HOME": "C:\\Program Files\\Microsoft\\jdk-11.0.16.101-hotspot"
+            },
+            "path": "cmd"
+        },
+        "JavaSE-17": {
+            "overrideName": true,
+            "env": {
+                "PATH": "C:\\Program Files\\Eclipse Adoptium\\jdk-17.0.8.7-hotspot\\bin;c:\\Users\\VP\\AppData\\Roaming\\Code\\User\\globalStorage\\pleiades.java-extension-pack-jdk\\maven\\latest\\bin;c:\\Users\\VP\\AppData\\Roaming\\Code\\User\\globalStorage\\pleiades.java-extension-pack-jdk\\gradle\\latest\\bin;${env:PATH}",
+                "JAVA_HOME": "C:\\Program Files\\Eclipse Adoptium\\jdk-17.0.8.7-hotspot"
+            },
+            "path": "cmd"
+        }
+    },
+    "maven.executable.path": "c:\\Users\\VP\\AppData\\Roaming\\Code\\User\\globalStorage\\pleiades.java-extension-pack-jdk\\maven\\latest\\bin\\mvn",
+    "java.import.gradle.home": "c:\\Users\\VP\\AppData\\Roaming\\Code\\User\\globalStorage\\pleiades.java-extension-pack-jdk\\gradle\\latest",
+    "files.autoSave": "afterDelay",
+    "editor.trimAutoWhitespace": false,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "security.workspace.trust.untrustedFiles": "open"
+}
